@@ -1,0 +1,6 @@
+[gd_resource type="Sky" load_steps=3 format=3 uid="uid://acg_i71adz4r"]
+[ext_resource type="Texture2D" uid="uid://acg_rzux6n3c" path="./EveningSkyHDRI049B_2K_HDR.exr" id="acg_714lq3j6"]
+[sub_resource type="PanoramaSkyMaterial" id="acg_bogip1lm"]
+panorama = ExtResource("acg_714lq3j6")
+[resource]
+sky_material = SubResource("acg_bogip1lm")
